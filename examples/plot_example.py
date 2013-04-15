@@ -2,7 +2,8 @@ from pylab import *
 
 
 if __name__ == '__main__':
-    aa = loadtxt('test_result.txt')
+    #aa = loadtxt('test_result.txt')
+    aa = loadtxt('res10000.txt')
 
     cpu = aa[:,1]
     tp = aa[:,2]
