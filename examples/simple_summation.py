@@ -58,5 +58,5 @@ if __name__ == '__main__':
     else:
         print "FAILURE: parallel result is different."
     
-    print "Speedup: {:.0f}%".format(100 * (time_b/time_a))
-    print "Efficiency: {:.0f}%".format(100 * (time_b/time_a)/float(Nprocs))
+    print "Speedup: {:.0%}".format(time_b/time_a)
+    print "Efficiency: {:.0%}".format((time_b/time_a)/float(Nprocs))
